@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 7a03deaef2957d941907b910a6b61622
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TestFloor_upleft
+  - first:
+      213: 21300002
+    second: TestFloor_up
+  - first:
+      213: 21300004
+    second: TestFloor_upright
+  - first:
+      213: 21300006
+    second: TestFloor_wallup
+  - first:
+      213: 21300008
+    second: TestFloor_holeupleft
+  - first:
+      213: 21300010
+    second: TestFloor_holeupright
+  - first:
+      213: 21300012
+    second: TestFloor_left
+  - first:
+      213: 21300014
+    second: TestFloor
+  - first:
+      213: 21300016
+    second: TestFloor_right
+  - first:
+      213: 21300018
+    second: TestFloor_wall
+  - first:
+      213: 21300020
+    second: TestFloor_holedownleft
+  - first:
+      213: 21300022
+    second: TestFloor_holedownright
+  - first:
+      213: 21300024
+    second: TestFloor_downleft
+  - first:
+      213: 21300026
+    second: TestFloor_down
+  - first:
+      213: 21300028
+    second: TestFloor_downright
+  - first:
+      213: 21300030
+    second: TestFloor_walldown
+  - first:
+      213: 21300032
+    second: TestFloor_floorleft
+  - first:
+      213: 21300034
+    second: TestFloor_floor
+  - first:
+      213: 21300036
+    second: TestFloor_floorright
+  - first:
+      213: 21300038
+    second: TestFloor_block
+  - first:
+      213: 21300040
+    second: TestFloor_floorwalldownright
+  - first:
+      213: 21300042
+    second: TestFloor_floorwallupright
+  - first:
+      213: 21300044
+    second: TestFloor_floorwalldownleft
+  - first:
+      213: 21300046
+    second: TestFloor_floorwallupleft
+  - first:
+      213: 21300048
+    second: TestFloor_wallfloordownright
+  - first:
+      213: 21300050
+    second: TestFloor_wallfloordownleft
+  - first:
+      213: 21300052
+    second: TestFloor_wallfloorupright
+  - first:
+      213: 21300054
+    second: TestFloor_floortowalldownright
+  - first:
+      213: 21300056
+    second: TestFloor_floortowallupright
+  - first:
+      213: 21300058
+    second: TestFloor_wallfloorupleft
+  - first:
+      213: 21300060
+    second: TestFloor_floortowalldownleft
+  - first:
+      213: 21300062
+    second: TestFloor_floortowallupleft
+  - first:
+      213: 21300064
+    second: PlatformSprites_0
+  - first:
+      213: 21300066
+    second: PlatformSprites_1
+  - first:
+      213: 21300068
+    second: PlatformSprites_2
+  - first:
+      213: 21300070
+    second: PlatformSprites_13
+  - first:
+      213: 21300072
+    second: PlatformSprites_14
+  - first:
+      213: 21300074
+    second: PlatformSprites_15
+  - first:
+      213: 21300076
+    second: PlatformSprites_26
+  - first:
+      213: 21300078
+    second: PlatformSprites_27
+  - first:
+      213: 21300080
+    second: PlatformSprites_28
+  - first:
+      213: 21300082
+    second: PlatformSprites_29
+  - first:
+      213: 21300084
+    second: PlatformSprites_3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlatformSprites_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1232
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e187ebe1a2a62478aab23695f79bbe
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1232
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cc08bd43a764e47a588b2e51263965
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1232
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe21b6a19bcbd343b028d4932b31502
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4617790035eef54881c1398d463c665
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2369dc02233a74ebb9d56d8c8fcf8e
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ef3f80b96b8143be6f6c7562bf530
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1168
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af58b32319616984eb75d423872f9555
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1168
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65f4aa8aea3bb46bc439f6ae8abe88
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1168
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b365e9425ff9db4c9858b3bcb57ed66
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1044
+        width: 272
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c3eb43700b7e4b88d887016ef6ceb
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformSprites_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1080
+        width: 146
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e87a71e219c7e4abc0e8bbd88bf9db
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 858786ab199331f4988569246b15325e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

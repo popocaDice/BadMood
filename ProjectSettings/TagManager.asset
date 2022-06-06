@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Projectile
+  - BackGround
+  - ForeGround
+  - Floor
+  - Light
+  - Effect
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ForeGround
+  - Effects
+  - Player
+  - NPCs
+  - Floor
+  - BackGround
+  - Skybox
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SkyBox
+    uniqueID: 2044636581
+    locked: 0
+  - name: BackGround
+    uniqueID: 1949976483
+    locked: 0
+  - name: Floor
+    uniqueID: 1934699767
+    locked: 0
+  - name: NPCs
+    uniqueID: 2503273529
+    locked: 0
+  - name: Player
+    uniqueID: 2711772587
+    locked: 0
+  - name: Effects
+    uniqueID: 876198447
+    locked: 0
+  - name: ForeGround
+    uniqueID: 4075017693
+    locked: 0
+  - name: UI
+    uniqueID: 75548783
+    locked: 0

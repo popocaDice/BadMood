@@ -1,0 +1,3504 @@
+fileFormatVersion: 2
+guid: 81475b2b0df5552459f3c8458f4f670a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: MC_1_neutral
+  - first:
+      213: 21300002
+    second: MC_2_neutral
+  - first:
+      213: 21300004
+    second: MC_3_neutral
+  - first:
+      213: 21300006
+    second: MC_4_neutral
+  - first:
+      213: 21300008
+    second: MC_5_neutral
+  - first:
+      213: 21300010
+    second: MC_6_neutral
+  - first:
+      213: 21300012
+    second: NPC_w_neutral
+  - first:
+      213: 21300014
+    second: NPC_w_scared
+  - first:
+      213: 21300016
+    second: NPC_w_cop
+  - first:
+      213: 21300018
+    second: NPC_w_hurt
+  - first:
+      213: 21300020
+    second: NPC_w_dead
+  - first:
+      213: 21300022
+    second: NPC_berserker
+  - first:
+      213: 21300024
+    second: NPC_berserkest
+  - first:
+      213: 21300026
+    second: NPC_helmet_1
+  - first:
+      213: 21300028
+    second: NPC_helmet_2
+  - first:
+      213: 21300030
+    second: NPC_helmet_3
+  - first:
+      213: 21300032
+    second: NPC_helmet_4
+  - first:
+      213: 21300034
+    second: NPC_helmet_5
+  - first:
+      213: 21300036
+    second: MC_1_hurt
+  - first:
+      213: 21300038
+    second: MC_2_hurt
+  - first:
+      213: 21300040
+    second: MC_3_hurt
+  - first:
+      213: 21300042
+    second: MC_4_hurt
+  - first:
+      213: 21300044
+    second: NPC_b_neutral
+  - first:
+      213: 21300046
+    second: NPC_b_scared
+  - first:
+      213: 21300048
+    second: NPC_b_cop
+  - first:
+      213: 21300050
+    second: NPC_b_hurt
+  - first:
+      213: 21300052
+    second: NPC_b_dead
+  - first:
+      213: 21300054
+    second: NPC_helmet_6
+  - first:
+      213: 21300056
+    second: NPC_helmet_7
+  - first:
+      213: 21300058
+    second: NPC_helmet_8
+  - first:
+      213: 21300060
+    second: NPC_helmet_9
+  - first:
+      213: 21300062
+    second: NPC_helmet_10
+  - first:
+      213: 21300064
+    second: MC_dead
+  - first:
+      213: 21300066
+    second: MC_s_1
+  - first:
+      213: 21300068
+    second: MC_s_2
+  - first:
+      213: 21300070
+    second: MC_s_3
+  - first:
+      213: 21300072
+    second: NPC_torso_1
+  - first:
+      213: 21300074
+    second: NPC_torso_2
+  - first:
+      213: 21300076
+    second: NPC_torso_3
+  - first:
+      213: 21300078
+    second: NPC_torso_4
+  - first:
+      213: 21300080
+    second: NPC_torso_5
+  - first:
+      213: 21300082
+    second: hand_w_2_r
+  - first:
+      213: 21300084
+    second: hand_w_4_r
+  - first:
+      213: 21300086
+    second: hand_w_5_r
+  - first:
+      213: 21300088
+    second: NPC_helmet_11
+  - first:
+      213: 21300090
+    second: NPC_helmet_12
+  - first:
+      213: 21300092
+    second: NPC_helmet_13
+  - first:
+      213: 21300094
+    second: MC_torso
+  - first:
+      213: 21300096
+    second: hand_w_1_l
+  - first:
+      213: 21300098
+    second: hand_w_2_l
+  - first:
+      213: 21300100
+    second: hand_w_3_l
+  - first:
+      213: 21300102
+    second: hand_w_4_l
+  - first:
+      213: 21300104
+    second: hand_w_5_l
+  - first:
+      213: 21300106
+    second: MC_shoe_l
+  - first:
+      213: 21300108
+    second: NPC_torso_6
+  - first:
+      213: 21300110
+    second: NPC_torso_7
+  - first:
+      213: 21300112
+    second: NPC_torso_8
+  - first:
+      213: 21300114
+    second: NPC_torso_9
+  - first:
+      213: 21300116
+    second: NPC_torso_10
+  - first:
+      213: 21300118
+    second: hand_w_1_r
+  - first:
+      213: 21300120
+    second: hand_w_3_r
+  - first:
+      213: 21300122
+    second: MC_shoe_r
+  - first:
+      213: 21300124
+    second: glock
+  - first:
+      213: 21300126
+    second: glock_w_l
+  - first:
+      213: 21300128
+    second: glock_w_recharge_l
+  - first:
+      213: 21300130
+    second: glock_w_r
+  - first:
+      213: 21300132
+    second: glock_w_recharge_r
+  - first:
+      213: 21300134
+    second: NPC_shoe_1_l
+  - first:
+      213: 21300136
+    second: NPC_shoe_2_l
+  - first:
+      213: 21300138
+    second: NPC_shoe_3_l
+  - first:
+      213: 21300140
+    second: NPC_shoe_4_l
+  - first:
+      213: 21300142
+    second: NPC_shoe_5_l
+  - first:
+      213: 21300144
+    second: glock_b_l
+  - first:
+      213: 21300146
+    second: glock_b_recharge_l
+  - first:
+      213: 21300148
+    second: glock_b_recharge_r
+  - first:
+      213: 21300150
+    second: NPC_shoe_1_r
+  - first:
+      213: 21300152
+    second: NPC_shoe_2_r
+  - first:
+      213: 21300154
+    second: NPC_shoe_3_r
+  - first:
+      213: 21300156
+    second: NPC_shoe_4_r
+  - first:
+      213: 21300158
+    second: NPC_shoe_5_r
+  - first:
+      213: 21300160
+    second: aston
+  - first:
+      213: 21300162
+    second: aston_w_l
+  - first:
+      213: 21300164
+    second: NPC_helmet_14
+  - first:
+      213: 21300166
+    second: aston_w_recharge_l
+  - first:
+      213: 21300168
+    second: NPC_shoe_6_l
+  - first:
+      213: 21300170
+    second: NPC_shoe_7_l
+  - first:
+      213: 21300172
+    second: NPC_shoe_8_l
+  - first:
+      213: 21300174
+    second: aston_b_l
+  - first:
+      213: 21300176
+    second: aston_b_recharge_l
+  - first:
+      213: 21300178
+    second: NPC_shoe_6_r
+  - first:
+      213: 21300180
+    second: NPC_shoe_7_r
+  - first:
+      213: 21300182
+    second: NPC_shoe_8_r
+  - first:
+      213: 21300184
+    second: aston_w_r
+  - first:
+      213: 21300186
+    second: hand_b_1_l
+  - first:
+      213: 21300188
+    second: hand_b_2_l
+  - first:
+      213: 21300190
+    second: hand_b_3_l
+  - first:
+      213: 21300192
+    second: hand_b_4_l
+  - first:
+      213: 21300194
+    second: hand_b_5_l
+  - first:
+      213: 21300196
+    second: shotgun_b_l
+  - first:
+      213: 21300198
+    second: aston_w_recharge_r
+  - first:
+      213: 21300200
+    second: hand_b_1_r
+  - first:
+      213: 21300202
+    second: hand_b_2_r
+  - first:
+      213: 21300204
+    second: hand_b_3_r
+  - first:
+      213: 21300206
+    second: hand_b_4_r
+  - first:
+      213: 21300208
+    second: shotgun
+  - first:
+      213: 21300210
+    second: aston_b_r
+  - first:
+      213: 21300212
+    second: aston_b_recharge_r
+  - first:
+      213: 21300214
+    second: shotgun_w_r
+  - first:
+      213: 21300216
+    second: mgun
+  - first:
+      213: 21300218
+    second: shotgun_w_recharge_l
+  - first:
+      213: 21300220
+    second: shotgun_w_l
+  - first:
+      213: 21300222
+    second: shotgun_b_recharge_r
+  - first:
+      213: 21300224
+    second: shotgun_b_r
+  - first:
+      213: 21300226
+    second: mgun_w_l
+  - first:
+      213: 21300228
+    second: mgun_w_recharge_l
+  - first:
+      213: 21300230
+    second: shotgun_w_recharge_r
+  - first:
+      213: 21300232
+    second: shotgun_b_recharge_l
+  - first:
+      213: 21300234
+    second: mgun_b_recharge_r
+  - first:
+      213: 21300236
+    second: mgun_b_l
+  - first:
+      213: 21300238
+    second: mgun_b_recharge_l
+  - first:
+      213: 21300240
+    second: mgun_w_r
+  - first:
+      213: 21300242
+    second: mgun_b_r
+  - first:
+      213: 21300244
+    second: mgun_w_recharge_r
+  - first:
+      213: 21300246
+    second: bazooka
+  - first:
+      213: 21300248
+    second: bazooka_w_l
+  - first:
+      213: 21300250
+    second: BadMood_125
+  - first:
+      213: 21300252
+    second: BadMood_126
+  - first:
+      213: 21300254
+    second: BadMood_127
+  - first:
+      213: 21300256
+    second: BadMood_128
+  - first:
+      213: 21300258
+    second: bazooka_w_recharge_l
+  - first:
+      213: 21300260
+    second: bazooka_w_r
+  - first:
+      213: 21300262
+    second: bazooka_ammo
+  - first:
+      213: 21300264
+    second: BadMood_132
+  - first:
+      213: 21300266
+    second: BadMood_133
+  - first:
+      213: 21300268
+    second: bazooka_w_recharge_r
+  - first:
+      213: 21300270
+    second: bazooka_b_l
+  - first:
+      213: 21300272
+    second: BadMood_136
+  - first:
+      213: 21300274
+    second: BadMood_137
+  - first:
+      213: 21300276
+    second: bazooka_b_recharge_l
+  - first:
+      213: 21300278
+    second: bazooka_b_r
+  - first:
+      213: 21300280
+    second: bazooka_b_recharge_r
+  - first:
+      213: 21300282
+    second: BadMood_141
+  - first:
+      213: 21300284
+    second: hand_b_5_r
+  - first:
+      213: 21300286
+    second: glock_b_r
+  - first:
+      213: 21300288
+    second: cursor_3
+  - first:
+      213: 21300290
+    second: cursor_2
+  - first:
+      213: 21300292
+    second: cursor_1
+  - first:
+      213: 21300294
+    second: grass_1
+  - first:
+      213: 21300296
+    second: grass_2
+  - first:
+      213: 21300298
+    second: grass_3
+  - first:
+      213: 21300300
+    second: grass_4
+  - first:
+      213: 21300302
+    second: grass_1_top
+  - first:
+      213: 21300304
+    second: grassa_2_top
+  - first:
+      213: 21300306
+    second: grass_3_top
+  - first:
+      213: 21300308
+    second: grass_4_top
+  - first:
+      213: 21300310
+    second: grass_1_bottom
+  - first:
+      213: 21300312
+    second: grass_2_bottom
+  - first:
+      213: 21300314
+    second: BadMood_35
+  - first:
+      213: 21300316
+    second: BadMood_36
+  - first:
+      213: 21300318
+    second: BadMood_38
+  - first:
+      213: 21300320
+    second: grass_3_bottom
+  - first:
+      213: 21300322
+    second: grass_4_bottom
+  - first:
+      213: 21300324
+    second: grass_1_layer
+  - first:
+      213: 21300326
+    second: grass_2_layer
+  - first:
+      213: 21300328
+    second: grass_3_layer
+  - first:
+      213: 21300330
+    second: grass_4_layer
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC_1_neutral
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2047
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5568f47466bf0b4b8da06f6c89c151f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_2_neutral
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2048
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab864e8567e9d00489768ef82a2a58b5
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_3_neutral
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2048
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64030366124baf249a44d670f16915b6
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_4_neutral
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2048
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91fffd6811999242923fb68d5e70709
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_5_neutral
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06df8fb813c8a147b4bcc228f0700b1
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_6_neutral
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6830ff9f3076489425c4c1787d474
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_w_neutral
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2050
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b193e32cb795734ca53009d1a073172
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_w_scared
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6f998376a001641abe5f1b2af9207d
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_w_cop
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760673941fe9fe8498e996f1c9687042
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_w_hurt
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff77ed1590221419f2d92dd73692c3
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_w_dead
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5641b2eb3de34c4f93d852681546a64
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_berserker
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc3d7ee48be5f46938c1130094a247
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_berserkest
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2049
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3650e62e9fea4f8c608e423fca9f6
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_1
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2060
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbba7dc71db3934b859df5d05df1eb3
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1962
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beedd5ce5dec4c4cbf6d679b6997cdc
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2038
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b73461d43c16104796ae275f3489a58
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2063
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b1a77c73ae9c74693e7e1d5fd01666
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_5
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 2049
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3095224fcf193e742bfe1f65db3bf952
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_1_hurt
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1997
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af09081792fbda64d9af8639d52bd169
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_2_hurt
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1998
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28395cd974dc1da4e923b3b980f68af7
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_3_hurt
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1998
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd036ad015d92a043a24b1460ef2e6d3
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_4_hurt
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1998
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ccc88b81b71c4a935bae574a38d2e
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_b_neutral
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2003
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5425284cdc47c4aa4ce0e3cf155e8d
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_b_scared
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2002
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cb1d7f4737ab64995a7a42d10068f5
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_b_cop
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2002
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad30c3cce59296040b80140218a3a851
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_b_hurt
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2002
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d292838e5f5743468d5f0aa12d8069e
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_b_dead
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2002
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f51d0a0a383a5941b0fbb25579ad486
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1980
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc0467b76883b41b10b6aca713952a
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_7
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2016
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81315f4cc25677448a2048f81473b97
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_8
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1993
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40795ca49353d6c428d9d808b0f76c3e
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_9
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1927
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a05b45bb9ac24341bc0c13d615c3b05
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_10
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1978
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6440962d7b569a4088e13ed4e7a59ed
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_dead
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1943
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c424c07582b0d8b4ca89447adc86f22a
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_s_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1945
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cc75612129554ab4bbeee2b8dc880
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_s_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1946
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5212cdc8fe7a50a4081be550a5fb02ed
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_s_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1946
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1e39eda7aac6840bc4a2f0bc4f2f25
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1928
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529dff64a78933c42b8a30c33b591127
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1929
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35e30270d2e9e7429b1cb336944ae09
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1929
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54455f3a1b23c47a270a617f7a4762
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_4
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1930
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db3a285ccda08649adf13814e1418e6
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1931
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dabdaebf48fe7489713816b1b8769f
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1938
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25f5ac74679e2d40a8afdc06983ed48
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_12
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1938
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87df93d01951f54d8d41f0a545ef6d2
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_13
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1952
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5e566c7b8d674687a302305e40197
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_torso
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1860
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19660cfdbe85d69478c899d1aef2c8bb
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_1_l
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1885
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c47240595e654695cebd209d140be
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_2_l
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1885
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d342ff72bdfec48bc5900390ffbfe3
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_3_l
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1890
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4b2df5426d4ea4582cc108c4346c7d
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_4_l
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1882
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa71214530b8f40baf92b684e5ed8e
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_5_l
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1880
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b25a2eddb4c2843bee04ed93535e7d
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_shoe_l
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1895
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ffe312bee16dd4d9e6c827d0b80a96
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1855
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd087535f7a5e14ba4d2b487a4cc8d0
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1856
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7400e0196ad84a8448d1c98a7e472207
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1856
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9893d966d0a56204a86afe71e2b2d92d
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_9
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1857
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65773a7c5720ccc49bfa94c9a25094c3
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_torso_10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1858
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc6a129374e22348b34e82bc3a1b05a
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_1_r
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1827
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceb293469f9e064bad5ac2df9339a85
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_3_r
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1830
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce8c1008eb66a468cd4fb729264f19
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_shoe_r
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1834
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014bac2b489fe56469c06bfadbb97792
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1759
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ae66cf725a774392da3f789a8bee6
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_w_l
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1753
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd48bdbb780e094cac75a6a375e7e8c
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_w_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1753
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d143742a89f154eb2d0fb3251d8def
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_w_r
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1753
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9b582d671cf994b9ec0a247e348fb8
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_w_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1753
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a3ef91c0b75ca48bf3526d17b6f5c5
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_1_l
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1805
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de440883adcd94b40a1f4689b5b69c62
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_2_l
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1806
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea2aba8be1f17f4ab017b2ace6837d8
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_3_l
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1808
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba29d0069fc32f449dd51a5314ad841
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_4_l
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1809
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950056477b848a34393415eaa710b426
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_5_l
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1811
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046e929e275c04047b7248764dde6e24
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_b_l
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1715
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca09f168a724964f9ee280013035749
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_b_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1716
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80efb6cf7fc12214a95313f1d6780b52
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_b_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1716
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd04a75bdcd26c43944507b522f0ed4
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_1_r
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1764
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1194f7e187fb204cbd836a336d23368
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_2_r
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1765
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2ca157107f51c499009dc43c1967f4
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_3_r
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1767
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d341451b60fef4797b2f774730bfce
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_4_r
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1768
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a669a5d186f46a4eab1c0899def8fc7
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_5_r
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1770
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a5d208f46d92b4e8cb154380d67f0f
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1657
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a78581f649a93418aeda42a2190933
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_w_l
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1659
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ead9749abefa945952d1eb0845659c
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_w_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1658
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97dd16b29d74104f8fe5b85c3ee93e3
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_6_l
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1714
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acad29ca6f53714595249a99f7a908a
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_7_l
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1716
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc00f9825817847ab268a15f4aaf75
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_8_l
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1717
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768df2d3d99432f4ea61b0f7db5e2c98
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_b_l
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1613
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255b00ab8f0e9a84abb514601c8be56a
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_b_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1612
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88137778941104680e76981a785009
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_6_r
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1672
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86b97f2c642cc469b3c4465ec51a14
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_7_r
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1675
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7f03af27d3ebc478a3c3c776a24194
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_shoe_8_r
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1676
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a032e6cc001b8e4799826539e62f4bf
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_w_r
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1555
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34160dd1ca369e34a9759bcb42fd7605
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_1_l
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1619
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5586f8ee57eb35e4f86862a6d4319f2a
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_2_l
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1619
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7038addd8eb90c4abd5389f1ffe1cb8
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_3_l
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1624
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3b1bc8f3068c147a2a8be476064f0b
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_4_l
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1616
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faa53b2884a2bb4691b7c46ff5853ca
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_5_l
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1614
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c31279b9806372448bdb162161f85f5
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_b_l
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1407
+        width: 186
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e93d2e0e93ebd84e9180ea018078191
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_w_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1556
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e3ac6a76b7ad7429e44d77129dab4c
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_1_r
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1582
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b76bb150e43e7f4e8601fe00ce8db2d
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_2_r
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1582
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c3b357eb9cab44aa9e1c7e28fd84c9
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_3_r
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1585
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1e7cb24d637ca46afbf30fd407aba5
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_4_r
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1574
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f24f86d2fa4c43bafaff570d11fa2
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1413
+        width: 186
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891c4c974d981244c8088b41ffb46f84
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_b_r
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1505
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debdca8bbf72244d9223120ee6d4375
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aston_b_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1506
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560fe0b6c2eee9d46bdc0db83f0c1be8
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_w_r
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1411
+        width: 186
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6ed6b8393cc64b87a65d546f1cfeb
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1267
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b911e658ed094b8ee7cbae55ab660
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_w_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1354
+        width: 187
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c231c66c863206498ddf2b6bbcf2e57
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_w_l
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1411
+        width: 187
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75288e9132c17294887ad19ee0f80176
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_b_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1349
+        width: 186
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d262affc383e8940a444c87a30e04e0
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_b_r
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1406
+        width: 186
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf3f1860e9ac714b9b96150f7e31484
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_w_l
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1267
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987bcb1d59e7d7c4fa48742ee908e5dd
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_w_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1265
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e0b8472011f88428cd6d2133421721
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_w_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1353
+        width: 186
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84cee57e2a263b4d831a23dfbdc6479
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shotgun_b_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1350
+        width: 187
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1405ab50c6247954aa43b2e738d1794b
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_b_l
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1195
+        width: 125
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740010115cefc146a8e96733455f239
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_b_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1194
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2743bdf695e59947a7bc9f8abe6069a
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_w_r
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1265
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488fe16f9a3dce04aba68ee3bcd5b25a
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_b_r
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1193
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fed8c3103bfd1c489007e80a3245046
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_w_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1267
+        width: 125
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308b77149272d945b82e5eb1d9a90de
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1121
+        width: 327
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1a411826da5874287b1c83d8671616
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_w_l
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1124
+        width: 327
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136096ebb855a5343b3d527990d984cf
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_w_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1067
+        width: 233
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f529ae770de2e4cbd83e2463f7f4b7
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_w_r
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1123
+        width: 327
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa94ec645707af4580d2bbe0969ee92
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_ammo
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1049
+        width: 215
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51bd067ebb5484f9a356aab978f938
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_w_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1067
+        width: 233
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa9c3b00f769a4380ac97fc992aae8
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_b_l
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1012
+        width: 327
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e61f4bb1f18545af59da19661629a
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_b_recharge_l
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 955
+        width: 233
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624f38322ed9da94f8306ed46a24ef9e
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_b_r
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1009
+        width: 327
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30301c4371543f489752b77c5f1999b
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bazooka_b_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 953
+        width: 233
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffa8bb033cb5d842bdccf79880ec508
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_2_r
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1827
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac389af095ebcd40b6dfd3860ec3dd1
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_4_r
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1819
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4844ef9e4deba45bdb5cbbe917795e
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_w_5_r
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1817
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf4ec1baa29bca4a8a4109791a5213f
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_b_5_r
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1572
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f816c5e1627f43abd3b3c3161de21
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_b_r
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1716
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a8afb76ceb40749adc07528ef08389
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_helmet_14
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2012
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0759d9218b465644a9fe75ff4ee12347
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgun_b_recharge_r
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1195
+        width: 125
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b149521377a02e34a9b47e604c2d2cd1
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2043
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a8c76a0c7884548a2b1a5b4d5023d5
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2053
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5460c3fde65752948b9b601eede89906
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_1
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 2063
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9f7ec3715bd3d4e94bb4b971b97896
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 51fbc4c608150c942ae4f194609ab30d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

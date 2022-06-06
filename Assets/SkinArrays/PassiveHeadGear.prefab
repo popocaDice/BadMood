@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8655900052724317665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5345044457473902139}
+  - component: {fileID: 7135500080785235952}
+  m_Layer: 0
+  m_Name: PassiveHeadGear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5345044457473902139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8655900052724317665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.977179, y: 0.9633187, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7135500080785235952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8655900052724317665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd4b634f55b0504cb2b0101e67c3f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - Pack:
+    - {fileID: 21300026, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300028, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300030, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300032, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300034, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300054, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300056, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300058, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300060, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300062, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300088, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300090, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  - Pack:
+    - {fileID: 21300164, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
+  BackSprites: []
