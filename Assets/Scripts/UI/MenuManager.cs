@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-	private Vector2 mouse_pos;
 
     // Start is called before the first frame update
     void Start()
@@ -21,16 +20,21 @@ public class MenuManager : MonoBehaviour
 
 	public void Play()
 	{
-
+		SceneManager.LoadScene("TestScene");
 	}
 
-	public void OnSettings()
+	public void PanelEnable(GameObject obj)
 	{
+		obj.SetActive(true);
+	}
 
+	public void PanelDisable(GameObject obj)
+	{
+		obj.SetActive(false);
 	}
 
 	public void Quit()
 	{
-
+		Application.Quit();
 	}
 }

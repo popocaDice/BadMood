@@ -134,22 +134,24 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 		return ForceSpeed(v.x, v.y, max_speed*dash_mult);
 	}
 
-	public void Damage(float d)
+	public bool Damage(float d)
 	{
-		if (invulnerable) return;
+		if (invulnerable) return false;
 		health -= d;
+		return true;
 	}
 
-	public void Damage(float d, Vector2 direction, float intensity)
+	public bool Damage(float d, Vector2 direction, float intensity)
 	{
-		if (invulnerable) return;
+		if (invulnerable) return false;
 		health -= d;
 		jump = false;
 		control = false;
 		invulnerable = true;
 		foreach (SpriteRenderer s in GetComponentsInChildren<SpriteRenderer>()) StartCoroutine(Blink(s));
 		ForceSpeed(direction, max_speed * intensity);
-		Debug.Log("Tomou dano! Vida total: " + health);
+		//Debug.Log("Tomou dano! Vida total: " + health);
+		return true;
 	}
 
 	public void GroundCheckIn()
@@ -179,5 +181,15 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	public void Invoke(string name)
 	{
 		Invoke(name, 0f);
+	}
+
+	public float GetHealth()
+	{
+		return health;
+	}
+
+	public bool Control()
+	{
+		return control;
 	}
 }

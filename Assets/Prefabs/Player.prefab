@@ -632,6 +632,7 @@ MonoBehaviour:
   dash_cooldown: 60
   dash_count: 2
   dash_input_cooldown: 0.25
+  max_fury: 6000
   cursor: {fileID: 0}
   weapon: {fileID: 7949245299555937865}
 --- !u!50 &7949245300733654133

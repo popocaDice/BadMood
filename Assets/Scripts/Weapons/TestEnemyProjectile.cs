@@ -29,8 +29,9 @@ public class TestEnemyProjectile : MonoBehaviour, ProjectileInterface
 	{
 		if (collision.gameObject.tag == "Player")
 		{
-			collision.gameObject.GetComponent<CharacterPhysics>().Damage(1,
-				Vector3.ClampMagnitude(collision.transform.position - transform.position, 1), knockback);
+			if (collision.gameObject.GetComponent<CharacterPhysics>().Damage(1,
+				Vector3.ClampMagnitude(collision.transform.position - transform.position, 1), knockback))
+			collision.gameObject.GetComponent<PlayerController>().AddFury(500);
 			//Colide();
 		}
 		else if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Obstacle")

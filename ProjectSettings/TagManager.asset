@@ -9,9 +9,10 @@ TagManager:
   - BackGround
   - ForeGround
   - Floor
-  - Light
   - Effect
   - Obstacle
+  - Music
+  - SFX
   layers:
   - Default
   - TransparentFX

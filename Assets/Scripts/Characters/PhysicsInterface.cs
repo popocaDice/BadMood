@@ -16,9 +16,9 @@ public interface PhysicsInterface
 
 	Vector2 ForceSpeed(Vector2 v);
 
-	void Damage(float d);
+	bool Damage(float d);
 
-	void Damage(float d, Vector2 direction, float intensity);
+	bool Damage(float d, Vector2 direction, float intensity);
 
 	void GroundCheckIn();
 
@@ -29,4 +29,6 @@ public interface PhysicsInterface
 	void CeilingCheckOut();
 
 	void Invoke(string name);
+
+	bool Control();
 }
