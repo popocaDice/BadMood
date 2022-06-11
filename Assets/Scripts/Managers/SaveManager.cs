@@ -10,7 +10,7 @@ public class SaveManager : MonoBehaviour
 
 	private void Awake()
 	{
-		icon = GetComponentInChildren<GameObject>();
+		icon = transform.GetChild(0).gameObject;
 		GameObject.DontDestroyOnLoad(this);
 	}
 

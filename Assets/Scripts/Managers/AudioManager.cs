@@ -12,11 +12,19 @@ public class AudioManager : MonoBehaviour
 	private void Awake()
 	{
 		GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>().OnLoadPref();
+		//setMaster(100);
+		//setMusic(100);
+		//setSFX(100);
 		GameObject.DontDestroyOnLoad(this);
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
-	void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+	public void UpdateMenu()
+	{
+		menu.volume = (music * master);
+	}
+
+	public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 	{
 		//Debug.Log("started");
 
