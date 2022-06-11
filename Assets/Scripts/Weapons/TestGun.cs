@@ -68,13 +68,13 @@ public class TestGun : MonoBehaviour, WeaponInterface
 
 	public void idle()
 	{
-		r.sprite = sprites[chph.body.localScale.x>0?side:1-side];
-		r.sortingOrder = (int) (chph.body.localScale.x * 5);
+		r.sprite = sprites[side];
+		r.sortingOrder = (int) ((1 - chph.body.localScale.x) * 5);
 		anim.SetBool("shoot", false);
 	}
 
 	public void shot()
 	{
-		r.sprite = sprites_shoot[chph.body.localScale.x > 0 ? side : 1 - side];
+		r.sprite = sprites_shoot[side];
 	}
 }

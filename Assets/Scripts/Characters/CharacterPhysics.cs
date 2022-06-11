@@ -170,6 +170,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	public void CeilingCheckIn()
 	{
 		ceiling = true;
+		jump_sustained = jump_sustain;
 		v.y = 0;
 	}
 
