@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BasicEnemyAI : MonoBehaviour
 {
+    public AimScript weapon;
     public Transform enemyTransform;
     private Rigidbody2D rb2d;
     private PhysicsInterface enemy;
@@ -12,6 +13,8 @@ public class BasicEnemyAI : MonoBehaviour
     public float detectionRange;
     public float attackRange;
     public Transform player;
+
+
 
     private float x = 0, y = 0;
 
@@ -41,7 +44,7 @@ public class BasicEnemyAI : MonoBehaviour
             //if player is inside of attack range
             else
             {
-
+                
             }
 
         }
@@ -54,5 +57,10 @@ public class BasicEnemyAI : MonoBehaviour
         if (rb2d.velocity.x > 0) back = false;
         else if (rb2d.velocity.x < 0) back = true;
 
+    }
+
+    void OnFire()
+    {
+        weapon.Shoot();
     }
 }
