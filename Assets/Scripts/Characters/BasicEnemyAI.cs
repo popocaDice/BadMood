@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BasicEnemyAI : MonoBehaviour
 {
-    public AimScript weapon;
+    public EnemyAimScript weapon;
     public Transform enemyTransform;
     private Rigidbody2D rb2d;
     private PhysicsInterface enemy;
@@ -12,7 +12,8 @@ public class BasicEnemyAI : MonoBehaviour
     public float speed;
     public float detectionRange;
     public float attackRange;
-    public Transform player;
+
+    private Transform player;
 
 
 
@@ -24,6 +25,7 @@ public class BasicEnemyAI : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         back = false;
         enemy = GetComponent<PhysicsInterface>();
+		player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -35,6 +37,7 @@ public class BasicEnemyAI : MonoBehaviour
         //check if player is in detection range
         if (Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
+			weapon.See(transform);
             //check if player is out of attack range
             if (Vector2.Distance(transform.position, player.position) > attackRange)
             {
@@ -44,14 +47,14 @@ public class BasicEnemyAI : MonoBehaviour
             //if player is inside of attack range
             else
             {
-                
+				weapon.Shoot();
             }
 
         }
         //player outside of detection // patroling
         else
         {
-            
+			weapon.Unsee();
         }
 
         if (rb2d.velocity.x > 0) back = false;

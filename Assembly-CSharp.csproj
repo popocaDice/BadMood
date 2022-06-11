@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\FuryManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\BasicEnemyAI.cs" />
     <Compile Include="Assets\Scripts\Outdated\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponInterface.cs" />
     <Compile Include="Assets\Scripts\UI\MenuManager.cs" />
@@ -62,8 +63,10 @@
     <Compile Include="Assets\Scripts\Characters\CollisionCheck.cs" />
     <Compile Include="Assets\Scripts\UI\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Characters\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
     <Compile Include="Assets\Scripts\UI\MenuCamera.cs" />
     <Compile Include="Assets\Scripts\Characters\CharacterPhysics.cs" />
+    <Compile Include="Assets\Scripts\Weapons\EnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\UI\LifeManager.cs" />
     <Compile Include="Assets\Scripts\Outdated\ListOfSpriteList.cs" />
     <Compile Include="Assets\CurvedTextMeshPro\Scripts\TextProOnACurve.cs" />
@@ -79,7 +82,8 @@
     <Compile Include="Assets\Scripts\Weapons\TestGun.cs" />
     <Compile Include="Assets\Scripts\Weapons\TestEnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\Outdated\BulletBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\EnemyAimScript.cs" />
+    <Compile Include="Assets\Scripts\Weapons\EnemyTestGun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

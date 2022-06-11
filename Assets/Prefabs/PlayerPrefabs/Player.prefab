@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949245298915955911}
   - component: {fileID: 7949245298915955910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7949245299030548663}
   - component: {fileID: 7949245299030548661}
   - component: {fileID: 7949245299030548662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 7949245299078555697}
   - component: {fileID: 7949245299078555695}
   - component: {fileID: 7949245299078555696}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949245299456061376}
   - component: {fileID: 7949245299456061439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949245299555937866}
   - component: {fileID: 7949245299555937865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AimObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949245300381654488}
   - component: {fileID: 7949245300381654487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949245300421266681}
   - component: {fileID: 7949245300421266680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7949245300516058535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7949245300669864316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7949245300927644493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,6 +822,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BaseWeapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917506423039388015, guid: 1eebf8a812b4d634cae565d2f82688d2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573292066616097181, guid: 1eebf8a812b4d634cae565d2f82688d2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057554922739574392, guid: 1eebf8a812b4d634cae565d2f82688d2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eebf8a812b4d634cae565d2f82688d2, type: 3}
