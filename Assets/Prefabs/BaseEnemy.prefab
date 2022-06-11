@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392158683385632036}
   - component: {fileID: 358729464311619961}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Foot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,9 +94,10 @@ GameObject:
   - component: {fileID: 4837835562251742321}
   - component: {fileID: -2391987335945027166}
   - component: {fileID: 7695613597872038241}
-  m_Layer: 0
+  - component: {fileID: -494166241792749866}
+  m_Layer: 9
   m_Name: BaseEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,16 +131,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b16ea5c92456d44bac830fe9d808019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectorSize: {x: 5, y: 5}
-  detectorOriginOffset: {x: 0, y: 0}
-  detectionDelay: 0.3
-  detectorLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  gizmoIdleColor: {r: 0, g: 1, b: 0, a: 1}
-  gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
-  showGizmos: 1
-  body: {fileID: 8735598223491790064}
+  enemyTransform: {fileID: 4391049431049330257}
+  health: 500
+  speed: 3
+  detectionRange: 10
+  attackRange: 5
+  player: {fileID: 0}
 --- !u!50 &-2391987335945027166
 Rigidbody2D:
   serializedVersion: 4
@@ -186,6 +183,32 @@ MonoBehaviour:
   invul_duration: 12
   invul_blink_duration: 0.2
   body: {fileID: 7949245300927644493, guid: f723a8072617a034f8a2eab138cb66e6, type: 3}
+--- !u!61 &-494166241792749866
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670456354386532521}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &873383291483045761
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +220,7 @@ GameObject:
   - component: {fileID: 1213453524506231957}
   - component: {fileID: 6687278310853846942}
   - component: {fileID: 4615613909795280797}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8735598223491790064}
   - component: {fileID: 1509051921100112387}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1154241535945284802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3167675470455729504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5435608824932982734}
   - component: {fileID: 1752744685175265420}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Foot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2318011799941742191}
   - component: {fileID: 5063344428914604253}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +577,7 @@ GameObject:
   - component: {fileID: 5304114040916453776}
   - component: {fileID: 8074702779371749682}
   - component: {fileID: 8764396615421977284}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6435490666807575182}
   - component: {fileID: 8577350893295390889}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}

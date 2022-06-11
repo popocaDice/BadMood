@@ -193,4 +193,14 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	{
 		return control;
 	}
+
+	private void Die()
+    {
+		Destroy(gameObject);
+    }
+
+	void Update()
+    {
+		if (health <= 0) Die();
+    }
 }

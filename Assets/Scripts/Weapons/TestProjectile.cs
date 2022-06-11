@@ -36,7 +36,12 @@ public class TestProjectile : MonoBehaviour, ProjectileInterface
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		life = max_life;
+		if (collision.gameObject.tag == "Enemy")
+		{
+			if (collision.gameObject.GetComponent<CharacterPhysics>().Damage(1,
+				Vector3.ClampMagnitude(collision.transform.position - transform.position, 1), knockback))
+			Collide();
+		}
 	}
 
 	public void Collide()
