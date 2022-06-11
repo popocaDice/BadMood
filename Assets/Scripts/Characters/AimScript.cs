@@ -36,4 +36,9 @@ public class AimScript : MonoBehaviour
 	{
 		recoil = weapon.Shoot(recoil);
 	}
+
+	public void SpecialShoot()
+	{
+		recoil = weapon.SpecialShoot(recoil);
+	}
 }

@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private int dash_count;
 	[SerializeField] private float dash_input_cooldown;
 
+	[SerializeField] private int max_fury;
+
 	public CursorControll cursor;
 	public AimScript weapon;
 
@@ -20,6 +22,10 @@ public class PlayerController : MonoBehaviour
 	private int dash_stored;
 	private float dash_input_timer;
 	private Vector2 dash_input_last;
+	private bool special;
+
+	private int fury;
+	private bool berserk;
 
 	// Start is called before the first frame update
 	void Awake()
@@ -28,6 +34,7 @@ public class PlayerController : MonoBehaviour
 		p = GetComponent<PhysicsInterface>();
 		dash_recovery = 0;
 		dash_stored = dash_count;
+		fury = 0;
     }
 
     // Update is called once per frame
@@ -46,6 +53,14 @@ public class PlayerController : MonoBehaviour
 		}
 
 		rb2d.velocity = p.Move(x, y);
+
+		if (berserk && GetFury() >= 0.76f) fury -= 1;
+		else if (fury < max_fury)
+		{
+			fury += 1;
+			berserk = false;
+		}
+		else berserk = true;
 	}
 
 	void OnDash(InputValue v)
@@ -59,7 +74,7 @@ public class PlayerController : MonoBehaviour
 			dash_input_timer = Time.time;
 		}else
 		{
-			if (dash_stored > 0)
+			if (dash_stored > 0 && p.Control())
 			{
 				//Debug.Log("dash to " + dash_input_last);
 				rb2d.velocity = p.ForceSpeed(dash_input_last);
@@ -91,6 +106,23 @@ public class PlayerController : MonoBehaviour
 
 	void OnFire()
 	{
-		weapon.Shoot();
+		if (special) weapon.SpecialShoot();
+		else weapon.Shoot();
+		cursor.OnFire();
+	}
+
+	void OnSpecial()
+	{
+		cursor.OnSpecial();
+	}
+
+	public float GetFury()
+	{
+		return (float)fury/max_fury;
+	}
+
+	public void AddFury(int f)
+	{
+		fury += f;
 	}
 }

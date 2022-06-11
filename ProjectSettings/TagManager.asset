@@ -9,9 +9,11 @@ TagManager:
   - BackGround
   - ForeGround
   - Floor
-  - Light
   - Effect
   - Obstacle
+  - Music
+  - SFX
+  - Save
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - BackGround
   - Skybox
   - Projectile
-  - 
+  - CameraBounds
   - 
   - 
   - 

@@ -22,7 +22,7 @@ public class CursorControll : MonoBehaviour
 		cursor_pos = Vector2.zero;
         Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 	
     void Update()
@@ -40,5 +40,20 @@ public class CursorControll : MonoBehaviour
 	public void OnLook(Vector2 v)
 	{
 		cursor_pos += v;
+	}
+
+	public void OnFire()
+	{
+		anim.SetBool("click", true);
+	}
+
+	public void OnSpecial()
+	{
+		anim.SetBool("special", !anim.GetBool("special"));
+	}
+
+	public void OutFire()
+	{
+		anim.SetBool("click", false);
 	}
 }
