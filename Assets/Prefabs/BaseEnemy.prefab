@@ -133,10 +133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 7043823766424608724}
-  enemyTransform: {fileID: 4391049431049330257}
-  speed: 3
-  detectionRange: 20
-  attackRange: 5
+  detectionRange: 30
+  attackRange: 15
 --- !u!50 &-2391987335945027166
 Rigidbody2D:
   serializedVersion: 4
@@ -170,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15fb8edb3462684991ea645a4b424a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_speed: 20
+  max_speed: 10
   stillness_speed: 40
   acceleration: 0.3
   air_acceleration: 0.1
@@ -804,7 +802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recoil: 20
   special_recoil: 5
-  cooldown: 6000
+  cooldown: 50
   projectile_spawn_position: {fileID: 2398226970837357288}
   sprites:
   - {fileID: 21300130, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}

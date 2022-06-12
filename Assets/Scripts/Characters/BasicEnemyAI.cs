@@ -7,7 +7,6 @@ public class BasicEnemyAI : MonoBehaviour
     public EnemyAimScript weapon;
     private Rigidbody2D rb2d;
     private PhysicsInterface enemy;
-    public float speed;
     public float detectionRange;
     public float attackRange;
 
@@ -28,7 +27,6 @@ public class BasicEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         //check if player is in detection range
         if (Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
@@ -42,6 +40,7 @@ public class BasicEnemyAI : MonoBehaviour
             //if player is inside of attack range
             else
             {
+                x = 0;
 				weapon.Shoot();
             }
 
@@ -49,10 +48,11 @@ public class BasicEnemyAI : MonoBehaviour
         //player outside of detection // patroling
         else
         {
+            x = 0;
 			weapon.Unsee();
 		}
 
-		rb2d.velocity = enemy.Move(x, y);
+        rb2d.velocity = enemy.Move(x, y);
 
     }
 
