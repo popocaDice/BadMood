@@ -258,11 +258,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 402638885178111267, guid: 9f0a23cd9c484c647b27e9458b06424f,
-        type: 3}
-      propertyPath: cooldown
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 670456354386532521, guid: 9f0a23cd9c484c647b27e9458b06424f,
         type: 3}
       propertyPath: m_Name
@@ -322,11 +317,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4837835562251742321, guid: 9f0a23cd9c484c647b27e9458b06424f,
-        type: 3}
-      propertyPath: attackRange
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f0a23cd9c484c647b27e9458b06424f, type: 3}
