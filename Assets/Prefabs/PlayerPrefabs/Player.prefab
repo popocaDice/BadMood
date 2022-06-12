@@ -737,6 +737,7 @@ MonoBehaviour:
   max_health: 3
   invul_duration: 12
   invul_blink_duration: 0.2
+  control: 1
   body: {fileID: 7949245300927644493}
 --- !u!95 &7949245300733654128
 Animator:

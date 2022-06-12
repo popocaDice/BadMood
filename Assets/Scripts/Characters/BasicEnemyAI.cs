@@ -5,10 +5,8 @@ using UnityEngine;
 public class BasicEnemyAI : MonoBehaviour
 {
     public EnemyAimScript weapon;
-    public Transform enemyTransform;
     private Rigidbody2D rb2d;
     private PhysicsInterface enemy;
-    private bool back;
     public float speed;
     public float detectionRange;
     public float attackRange;
@@ -23,7 +21,6 @@ public class BasicEnemyAI : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        back = false;
         enemy = GetComponent<PhysicsInterface>();
 		player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -31,18 +28,16 @@ public class BasicEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyTransform.localScale = new Vector3(back ? 1 : -1, 1, 1);
-        rb2d.velocity = enemy.Move(x, y);
 
         //check if player is in detection range
         if (Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
-			weapon.See(transform);
+			weapon.See(player);
             //check if player is out of attack range
             if (Vector2.Distance(transform.position, player.position) > attackRange)
             {
-                if (player.position.x < enemyTransform.position.x) rb2d.velocity = new Vector3(-speed, rb2d.velocity.y, 0);
-                else rb2d.velocity = new Vector3(speed, rb2d.velocity.y, 0);
+                if (player.position.x < transform.position.x) x = -1;
+                else x = 1;
             }
             //if player is inside of attack range
             else
@@ -55,10 +50,9 @@ public class BasicEnemyAI : MonoBehaviour
         else
         {
 			weapon.Unsee();
-        }
+		}
 
-        if (rb2d.velocity.x > 0) back = false;
-        else if (rb2d.velocity.x < 0) back = true;
+		rb2d.velocity = enemy.Move(x, y);
 
     }
 

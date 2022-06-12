@@ -182,7 +182,7 @@ MonoBehaviour:
   max_health: 3
   invul_duration: 12
   invul_blink_duration: 0.2
-  body: {fileID: 7949245300927644493, guid: f723a8072617a034f8a2eab138cb66e6, type: 3}
+  body: {fileID: 8735598223491790064}
 --- !u!61 &-494166241792749866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -220,9 +220,9 @@ GameObject:
   - component: {fileID: 1213453524506231957}
   - component: {fileID: 6687278310853846942}
   - component: {fileID: 4615613909795280797}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: CeilingCheck
-  m_TagString: Floor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -596,9 +596,9 @@ GameObject:
   - component: {fileID: 5304114040916453776}
   - component: {fileID: 8074702779371749682}
   - component: {fileID: 8764396615421977284}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: GroundCheck
-  m_TagString: Floor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recoil: 20
   special_recoil: 5
-  cooldown: 50
+  cooldown: 6000
   projectile_spawn_position: {fileID: 2398226970837357288}
   sprites:
   - {fileID: 21300130, guid: 81475b2b0df5552459f3c8458f4f670a, type: 3}
