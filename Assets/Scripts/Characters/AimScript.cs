@@ -8,15 +8,17 @@ public class AimScript : MonoBehaviour
 	public Transform center;
 	public float recover_speed;
 
+	public GameObject gunObject;
+
 	private WeaponInterface weapon;
 
 	private float angle;
 	private float recoil;
 	private bool back;
 
-    void Start()
+    void Awake()
     {
-		weapon = GetComponentInChildren<WeaponInterface>();
+		//weapon = Instantiate<GameObject>(gunObject, transform).GetComponent<WeaponInterface>();
 		recoil = 0;
     }
 
@@ -40,5 +42,11 @@ public class AimScript : MonoBehaviour
 	public void SpecialShoot()
 	{
 		recoil = weapon.SpecialShoot(recoil);
+	}
+
+	public void SpawnWeapon(GameObject gun)
+	{
+		gunObject = gun;
+		weapon = Instantiate<GameObject>(gunObject, transform).GetComponent<WeaponInterface>();
 	}
 }

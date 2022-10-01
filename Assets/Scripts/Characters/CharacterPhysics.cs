@@ -134,6 +134,11 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 		return ForceSpeed(v.x, v.y, max_speed*dash_mult);
 	}
 
+	public float GetVertSpeed()
+	{
+		return v.y;
+	}
+
 	public bool Damage(float d)
 	{
 		if (invulnerable) return false;

@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
 		//setMaster(100);
 		//setMusic(100);
 		//setSFX(100);
-		GameObject.DontDestroyOnLoad(this);
+		DontDestroyOnLoad(gameObject);
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 

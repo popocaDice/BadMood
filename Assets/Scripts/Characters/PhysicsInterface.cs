@@ -16,6 +16,8 @@ public interface PhysicsInterface
 
 	Vector2 ForceSpeed(Vector2 v);
 
+	float GetVertSpeed();
+
 	bool Damage(float d);
 
 	bool Damage(float d, Vector2 direction, float intensity);

@@ -10,6 +10,8 @@ public class MenuCamera : MonoBehaviour
 	public Camera cam;
 	public float smooth;
 
+	public bool blockView;
+
 	private float cam_height, cam_width, bg_width, bg_height;
 	private Vector3[] bg_corners = new Vector3[4];
 	private Vector2 mouse_pos = Vector2.zero;
@@ -27,6 +29,7 @@ public class MenuCamera : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		if (blockView) return;
 		cam.transform.position = Vector2.Lerp(cam.transform.position, mouse_pos, smooth/10);
 		panel.transform.position = new Vector3(-cam.transform.position.x/3, -cam.transform.position.y/3, panel.transform.position.z);
 	}
@@ -36,5 +39,11 @@ public class MenuCamera : MonoBehaviour
 		mouse_pos = cam.ScreenToWorldPoint(v.Get<Vector2>())/10;
 		mouse_pos.x = Mathf.Clamp(mouse_pos.x, -((bg_width/2) - (cam_width/2)), ((bg_width/2) - (cam_width/2)));
 		mouse_pos.y = Mathf.Clamp(mouse_pos.y, -((bg_height/2) - (cam_height/2)), ((bg_height/2) - (cam_height/2)));
+	}
+
+	public void BlockView(bool v)
+	{
+		blockView = v;
+		if (v) cam.transform.position = Vector2.zero;
 	}
 }
