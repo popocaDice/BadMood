@@ -13,6 +13,8 @@ public class SaveManager : MonoBehaviour
 	private GameObject icon;
 	private GameObject player;
 
+	public bool pause;
+
 	private void Start()
 	{
 		SceneManager.sceneLoaded += OnSceneLoaded;

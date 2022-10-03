@@ -18,12 +18,14 @@ public class EnemyTestGun : MonoBehaviour, WeaponInterface
 	private Animator anim;
 	private Transform angle;
 	private SpriteRenderer r;
+	private SaveManager global;
 
 	private int side;
 	private float cool_countdown;
 
-	private void Start()
+	private void Awake()
 	{
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		angle = GetComponentInParent<Transform>();
 		r = GetComponentInChildren<SpriteRenderer>();
 		chph = GetComponentInParent<CharacterPhysics>();
@@ -32,6 +34,7 @@ public class EnemyTestGun : MonoBehaviour, WeaponInterface
 
 	private void FixedUpdate()
 	{
+		if (global.pause) return;
 		cool_countdown -= cool_countdown > 0 ? 1 : 0;
 		if ((transform.eulerAngles.z < 90 || transform.eulerAngles.z > 270))
 		{

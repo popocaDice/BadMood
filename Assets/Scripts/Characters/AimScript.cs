@@ -11,6 +11,7 @@ public class AimScript : MonoBehaviour
 	public GameObject gunObject;
 
 	private WeaponInterface weapon;
+	private SaveManager global;
 
 	private float angle;
 	private float recoil;
@@ -20,17 +21,20 @@ public class AimScript : MonoBehaviour
     {
 		//weapon = Instantiate<GameObject>(gunObject, transform).GetComponent<WeaponInterface>();
 		recoil = 0;
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
     }
 
 	private void FixedUpdate()
 	{
+		if (global.pause) return;
 		angle = (Mathf.Rad2Deg * Mathf.Atan2((center.position.y - cursor.position.y), (center.position.x - cursor.position.x)));
 		angle += Mathf.Abs(angle) > 90 ? recoil : -recoil;
 		recoil = recoil > 0 ? recoil - recover_speed : 0;
 	}
 
 	private void Update()
-    {
+	{
+		if (global.pause) return;
 		transform.eulerAngles = Vector3.forward * angle;
     }
 

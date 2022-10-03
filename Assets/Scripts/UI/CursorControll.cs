@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 
 public class CursorControll : MonoBehaviour
 {
-
     private Animator anim;
+	private SaveManager global;
 
 	public Camera cam;
 	public AimScript gun;
@@ -15,8 +15,9 @@ public class CursorControll : MonoBehaviour
 	private float cam_height;
 	private float cam_width;
 
-    void Start()
-    {
+    void Awake()
+	{
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		cam_height = 2f * cam.orthographicSize - 1;
 		cam_width = cam_height * cam.aspect + 0.5f;
 		cursor_pos = Vector2.zero;
@@ -32,6 +33,7 @@ public class CursorControll : MonoBehaviour
 
     private void FixedUpdate()
     {
+		if (global.pause) return;
 		cursor_pos.x = Mathf.Clamp(cursor_pos.x, cam.transform.position.x - cam_width / 2, cam.transform.position.x + cam_width / 2);
 		cursor_pos.y = Mathf.Clamp(cursor_pos.y, cam.transform.position.y - cam_height / 2, cam.transform.position.y + cam_height / 2);
 		transform.position = cursor_pos;

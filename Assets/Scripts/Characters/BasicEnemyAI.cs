@@ -11,14 +11,14 @@ public class BasicEnemyAI : MonoBehaviour
     public float attackRange;
 
     private Transform player;
-
-
+    private SaveManager global;
 
     private float x = 0, y = 0;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
         rb2d = GetComponent<Rigidbody2D>();
         enemy = GetComponent<PhysicsInterface>();
 		player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -27,6 +27,11 @@ public class BasicEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (global.pause)
+        {
+            rb2d.velocity = Vector2.zero;
+            return;
+        }
         //check if player is in detection range
         if (Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
@@ -53,6 +58,8 @@ public class BasicEnemyAI : MonoBehaviour
 		}
 
         rb2d.velocity = enemy.Move(x, y);
+
+        if (enemy.dead) GameObject.Destroy(gameObject);
 
     }
 

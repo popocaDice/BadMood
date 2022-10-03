@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Weapons\TestEnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\Outdated\BulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\Characters\EnemyAimScript.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

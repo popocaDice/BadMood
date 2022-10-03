@@ -6,18 +6,22 @@ public class TestProjectile : MonoBehaviour, ProjectileInterface
 {
 	private float life;
 
+	private SaveManager global;
+
 	public float angle { get; set; }
 	public float max_life;
 	public float speed;
 	public float knockback;
 
 	void Awake()
-    {
+	{
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		life = 0;
     }
 
 	private void FixedUpdate()
 	{
+		if (global.pause) return;
 		transform.position += Trajectory(life);
 		life++;
 	}
