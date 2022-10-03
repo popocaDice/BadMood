@@ -7,6 +7,7 @@ public class LifeManager : MonoBehaviour
 {
 	public Image img;
 	public Animator head;
+	public GameObject deathScreen;
 
 	private CharacterPhysics pc;
 
@@ -35,6 +36,7 @@ public class LifeManager : MonoBehaviour
 		else if (pc.GetHealth() == 0)
 		{
 			img.fillAmount = 0;
+			deathScreen.SetActive(true);
 		}
     }
 }

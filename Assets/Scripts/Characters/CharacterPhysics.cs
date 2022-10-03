@@ -27,10 +27,13 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	public Transform body;
 
+	private Animator anim;
+
 	private Vector2 v;
 
 	void Awake()
 	{
+		anim = GetComponent<Animator>();
 		health = max_health;
 		dead = false;
 	}
@@ -56,8 +59,8 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	private void Jump(float y)
 	{
-
 		jump = y>0 && (grounded || jump);
+		anim.SetBool("jump", jump);
 		if (jump && jump_sustained < jump_sustain)
 		{
 			v.y = jump_speed - (jump_sustained * gravity / 5);
@@ -83,6 +86,9 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	private void Move(float x)
 	{
+		if (Mathf.Abs(x) >= max_speed/stillness_speed) anim.SetBool("walk", true);
+		else anim.SetBool("walk", false);
+
 		if (control)
 		{
 			if (grounded && v.x <= max_speed)
@@ -163,6 +169,8 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	public void GroundCheckIn()
 	{
+		anim.SetBool("jump", false);
+		anim.SetBool("grounded", true);
 		grounded = true;
 		jump_sustained = 0;
 		if (control) v.y = 0;
@@ -171,6 +179,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	public void GroundCheckOut()
 	{
+		anim.SetBool("grounded", false);
 		grounded = false;
 	}
 
@@ -203,6 +212,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	private void Die()
     {
+		anim.SetTrigger("die");
 		Debug.Log("dead");
 		control = false;
 		dead = true;
