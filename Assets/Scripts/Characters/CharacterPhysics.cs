@@ -15,6 +15,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	public float max_health;
 	public float invul_duration;
 	public float invul_blink_duration;
+	public bool dead { get; set; }
 
 	private bool grounded;
 	private bool ceiling;
@@ -31,6 +32,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	void Awake()
 	{
 		health = max_health;
+		dead = false;
 	}
 
 	private IEnumerator Blink(SpriteRenderer renderer)
@@ -201,7 +203,9 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	private void Die()
     {
-		Destroy(gameObject);
+		Debug.Log("dead");
+		control = false;
+		dead = true;
     }
 
 	void Update()

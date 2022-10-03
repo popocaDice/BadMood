@@ -4,6 +4,8 @@ using UnityEngine;
 
 public interface PhysicsInterface
 {
+	bool dead { get; set; }
+
 	Vector2 Move(float x, float y);
 
 	Vector2 Move(Vector2 v);

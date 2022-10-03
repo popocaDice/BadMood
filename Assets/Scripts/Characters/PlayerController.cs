@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
 	private Rigidbody2D rb2d;
 	private PhysicsInterface p;
+	private SaveManager global;
 
 	private float x = 0, y = 0;
 	private int dash_recovery;
@@ -29,7 +30,8 @@ public class PlayerController : MonoBehaviour
 
 	// Start is called before the first frame update
 	void Awake()
-    {
+	{
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		rb2d = GetComponent<Rigidbody2D>();
 		p = GetComponent<PhysicsInterface>();
 		dash_recovery = 0;
@@ -40,6 +42,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
 	{
+		if (global.pause)
+		{
+			rb2d.velocity = Vector2.zero;
+			return;
+		}
 		if (dash_recovery == 0)
 		{
 			if (dash_stored < dash_count)
@@ -106,6 +113,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnFire()
 	{
+		if (global.pause) return;
 		if (special) weapon.SpecialShoot();
 		else weapon.Shoot();
 		cursor.OnFire();
@@ -113,6 +121,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnSpecial()
 	{
+		if (global.pause) return;
 		cursor.OnSpecial();
 	}
 

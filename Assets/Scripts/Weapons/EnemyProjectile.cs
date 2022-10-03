@@ -6,6 +6,8 @@ public class EnemyProjectile : MonoBehaviour, ProjectileInterface
 {
 	private float life;
 
+	private SaveManager global;
+
 	public float angle { get; set; }
 	public float max_life;
 	public float speed;
@@ -13,11 +15,13 @@ public class EnemyProjectile : MonoBehaviour, ProjectileInterface
 
 	void Awake()
 	{
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		life = 0;
 	}
 
 	private void FixedUpdate()
 	{
+		if (global.pause) return;
 		transform.position += Trajectory(life);
 		life++;
 	}
