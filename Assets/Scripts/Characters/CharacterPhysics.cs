@@ -25,13 +25,19 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	private bool invulnerable;
 
 	public Transform body;
+	public Animator anim;
+
 
 	private Vector2 v;
 
 	void Awake()
 	{
 		health = max_health;
+		anim = GetComponent<Animator>();
+
 	}
+
+	
 
 	private IEnumerator Blink(SpriteRenderer renderer)
 	{
@@ -72,6 +78,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 			}
 		}
 
+		if (jump && grounded) anim.SetBool("jump",true);
 	}
 
 	public Vector2 Move(Vector2 v)
@@ -161,6 +168,8 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 
 	public void GroundCheckIn()
 	{
+		anim.SetBool("jump", false);
+		anim.SetTrigger("grounded");
 		grounded = true;
 		jump_sustained = 0;
 		if (control) v.y = 0;
@@ -207,5 +216,13 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	void Update()
     {
 		if (health <= 0) Die();
-    }
+
+		if (Mathf.Abs(v.x) >= max_speed / stillness_speed) 
+		{
+			anim.SetBool("walk", true);
+		}
+		else {
+			anim.SetBool("walk", false);
+		}
+    } 
 }
