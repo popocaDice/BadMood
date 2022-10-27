@@ -65,8 +65,8 @@ public class LazyEnemyAI : MonoBehaviour
             rb2d.velocity = Vector2.zero;
             return;
         }
-        rb2d.velocity = enemy.Move(x, y);
         if (enemy.dead) GameObject.Destroy(gameObject);
+        rb2d.velocity = enemy.Move(x, y);
         ExecuteState();
     }
 
@@ -85,7 +85,7 @@ public class LazyEnemyAI : MonoBehaviour
             SetNextState();
             return;
         }
-        x = 0;
+        Stop();
         weapon.Unsee();
     }
 
@@ -102,8 +102,7 @@ public class LazyEnemyAI : MonoBehaviour
             return;
         }
         weapon.See(player);
-        if (player.position.x < transform.position.x) x = -1;
-        else x = 1;
+        WalkToPlayer();
     }
 
     void AttackState()
@@ -114,8 +113,18 @@ public class LazyEnemyAI : MonoBehaviour
             return;
         }
         weapon.See(player);
-        x = 0;
+        Stop();
         if(weapon.CanShoot()) weapon.Shoot();
+    }
+    void Stop()
+    {
+        x = 0;
+    }
+
+    void WalkToPlayer()
+    {
+        if (player.position.x < transform.position.x) x = -1;
+        else x = 1;
     }
 
     void SetNextState()
