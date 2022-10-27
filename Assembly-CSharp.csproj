@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{4985C0A5-0EE0-81FB-9283-0A5306137E3B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -58,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\FuryManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\LazyEnemyAI.cs" />
     <Compile Include="Assets\Scripts\Characters\WalkerEnemyAI.cs" />
     <Compile Include="Assets\Scripts\Outdated\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponInterface.cs" />
@@ -80,6 +80,7 @@
     <Compile Include="Assets\CurvedTextMeshPro\Scripts\TextProOnACircle.cs" />
     <Compile Include="Assets\CurvedTextMeshPro\Scripts\TextProOnAExp.cs" />
     <Compile Include="Assets\Scripts\Characters\AimScript.cs" />
+    <Compile Include="Assets\Scripts\Characters\StateStructure.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Outdated\CharacterController2D.cs" />
@@ -89,8 +90,6 @@
     <Compile Include="Assets\Scripts\Weapons\TestEnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\Outdated\BulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\Characters\EnemyAimScript.cs" />
-    <Compile Include="Assets\Scripts\Characters\LazyEnemyAI.cs" />
-    <Compile Include="Assets\Scripts\Characters\StateStructure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

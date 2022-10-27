@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface PhysicsInterface
 {
-	bool dead { get; set; }
+	bool Dead { get; set; }
 
 	Vector2 Move(float x, float y);
 
@@ -35,4 +35,8 @@ public interface PhysicsInterface
 	void Invoke(string name);
 
 	bool Control();
+
+	float GetHealth();
+
+	float GetMaxHealth();
 }

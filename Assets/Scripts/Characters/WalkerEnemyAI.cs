@@ -12,11 +12,13 @@ public class WalkerEnemyAI : MonoBehaviour
     private PhysicsInterface enemy;
     public float detectionRange;
     public float attackRange;
+    public float flinchTimer;
 
     private Transform player;
     private SaveManager global;
 
     private float x = 0, y = 0;
+    private bool flinched = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,13 +42,21 @@ public class WalkerEnemyAI : MonoBehaviour
         {
             StateValue = 2,
             StateName = "Attacking",
-            NextState = null,
+            NextState = 3,
             PreviousState = 1
+        };
+        StateStructure flinch = new StateStructure
+        {
+            StateValue = 3,
+            StateName = "Flinching",
+            NextState = null,
+            PreviousState = 2
         };
         states = new StateStructure[]{
             idle,
             chase,
-            attack
+            attack,
+            flinch
         };
         currentState = states.FirstOrDefault();
 
@@ -65,7 +75,7 @@ public class WalkerEnemyAI : MonoBehaviour
             rb2d.velocity = Vector2.zero;
             return;
         }
-        if (enemy.dead) GameObject.Destroy(gameObject);
+        if (enemy.Dead) GameObject.Destroy(gameObject);
         rb2d.velocity = enemy.Move(x, y);
         ExecuteState();
     }
@@ -76,11 +86,12 @@ public class WalkerEnemyAI : MonoBehaviour
         if (currentState.StateName == "Idle") IdleState();
         else if (currentState.StateName == "Chasing") ChaseState();
         else if (currentState.StateName == "Attacking") AttackState();
+        else if (currentState.StateName == "Flinching") FlinchState();
     }
 
     void IdleState()
     {
-        if (Vector2.Distance(transform.position, player.position) <= detectionRange)
+        if (Vector2.Distance(transform.position, player.position) <= detectionRange || (enemy.GetHealth() <= 0.4 * enemy.GetMaxHealth() && flinched == false))
         {
             SetNextState();
             return;
@@ -91,14 +102,14 @@ public class WalkerEnemyAI : MonoBehaviour
 
     void ChaseState()
     {
+        if (Vector2.Distance(transform.position, player.position) <= attackRange || (enemy.GetHealth() <= 0.4 * enemy.GetMaxHealth() && flinched == false))
+        {
+            SetNextState();
+            return;
+        }
         if (Vector2.Distance(transform.position, player.position) > detectionRange)
         {
             SetPreviousState();
-            return;
-        }
-        if (Vector2.Distance(transform.position, player.position) <= attackRange)
-        {
-            SetNextState();
             return;
         }
         weapon.See(player);
@@ -107,6 +118,11 @@ public class WalkerEnemyAI : MonoBehaviour
 
     void AttackState()
     {
+        if(enemy.GetHealth() <= 0.4 * enemy.GetMaxHealth() && flinched == false)
+        {
+            SetNextState();
+            return;
+        }
         if (Vector2.Distance(transform.position, player.position) > attackRange)
         {
             SetPreviousState();
@@ -115,6 +131,18 @@ public class WalkerEnemyAI : MonoBehaviour
         weapon.See(player);
         if (weapon.CanShoot()) weapon.Shoot();
         WalkToPlayer();
+    }
+
+    void FlinchState()
+    {
+        if (!flinched) flinched = true;
+        if(flinchTimer == 0)
+        {
+            SetPreviousState();
+            return;
+        }
+        flinchTimer -= 1;
+        Stop();
     }
 
     void Stop()
