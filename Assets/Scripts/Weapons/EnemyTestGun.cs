@@ -59,6 +59,11 @@ public class EnemyTestGun : MonoBehaviour, WeaponInterface
 		return recoil + r;
 	}
 
+	public bool CanShoot()
+    {
+		return cool_countdown == 0;
+    }
+
 	public float SpecialShoot(float r)
 	{
 		if (cool_countdown > 0) return r;

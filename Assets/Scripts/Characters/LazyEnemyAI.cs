@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class BasicEnemyAI : MonoBehaviour
+public class LazyEnemyAI : MonoBehaviour
 {
     StateStructure[] states;
     private StateStructure currentState;
@@ -115,9 +115,7 @@ public class BasicEnemyAI : MonoBehaviour
         }
         weapon.See(player);
         x = 0;
-        if (weapon.CanShoot()) weapon.Shoot();
-        if (player.position.x < transform.position.x) x = -1;
-        else x = 1;
+        if(weapon.CanShoot()) weapon.Shoot();
     }
 
     void SetNextState()

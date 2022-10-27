@@ -42,6 +42,11 @@ public class EnemyAimScript : MonoBehaviour
 		recoil = weapon.Shoot(recoil);
 	}
 
+	public bool CanShoot()
+    {
+		return weapon.CanShoot();
+    }
+
 	public void SpecialShoot()
 	{
 		recoil = weapon.SpecialShoot(recoil);

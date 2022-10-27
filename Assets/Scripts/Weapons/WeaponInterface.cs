@@ -11,4 +11,6 @@ public interface WeaponInterface
 	void idle();
 
 	void shot();
+
+	bool CanShoot();
 }

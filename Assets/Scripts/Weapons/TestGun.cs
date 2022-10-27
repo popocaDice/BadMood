@@ -80,4 +80,9 @@ public class TestGun : MonoBehaviour, WeaponInterface
 	{
 		r.sprite = sprites_shoot[side];
 	}
+
+	public bool CanShoot()
+    {
+		return cool_countdown == 0;
+    }
 }
