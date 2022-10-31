@@ -17,10 +17,11 @@ public class PauseMenu : MonoBehaviour
 
 	public void OnCancel()
 	{
-		//Time.timeScale = 1 - Time.timeScale;
-		global.pause = !global.pause;
-		pause.SetActive(!pause.activeInHierarchy);
-		Cursor.lockState = (Cursor.lockState == CursorLockMode.None) ? CursorLockMode.Locked : CursorLockMode.None;
+		if (global.pause) return;
+		global.pause = true;
+		pause.SetActive(true);
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
 	}
 
 	public void PanelEnable(GameObject obj)
@@ -33,9 +34,16 @@ public class PauseMenu : MonoBehaviour
 		obj.SetActive(false);
 	}
 
+	public void Resume()
+	{
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
+		global.pause = false;
+		pause.SetActive(false);
+	}
+
 	public void ReturnToMainMenu()
 	{
-		//Time.timeScale = 1;
 		global.pause = false;
 		SceneManager.LoadScene("MainMenu");
 	}

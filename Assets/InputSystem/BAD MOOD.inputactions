@@ -147,6 +147,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9e19d592-237f-4a38-8803-ec3b47e7b448",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "143bb1cd-cc10-4eca-a2f0-a3664166fe91",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",

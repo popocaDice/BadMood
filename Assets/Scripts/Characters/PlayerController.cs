@@ -70,6 +70,11 @@ public class PlayerController : MonoBehaviour
 		else berserk = true;
 	}
 
+	public void PlayerDeath()
+	{
+		p.dead = true;
+	}
+
 	void OnDash(InputValue v)
 	{
 		Vector2 input = v.Get<Vector2>();

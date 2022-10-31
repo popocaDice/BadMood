@@ -10,10 +10,12 @@ public class LifeManager : MonoBehaviour
 	public GameObject deathScreen;
 
 	private CharacterPhysics pc;
+	private SaveManager global;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
 		pc = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterPhysics>();
     }
 
@@ -36,7 +38,16 @@ public class LifeManager : MonoBehaviour
 		else if (pc.GetHealth() == 0)
 		{
 			img.fillAmount = 0;
-			deathScreen.SetActive(true);
+			global.pause = true;
 		}
-    }
+
+		if (pc.dead) DeathScreen();
+	}
+
+	public void DeathScreen()
+	{
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
+		deathScreen.SetActive(true);
+	}
 }

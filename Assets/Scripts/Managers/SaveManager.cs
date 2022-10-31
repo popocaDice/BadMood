@@ -54,6 +54,7 @@ public class SaveManager : MonoBehaviour
 
 	void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 	{
+		pause = false;
 		player = GameObject.FindGameObjectWithTag("Player");
 		if (player != null) player.GetComponent<PlayerController>().weapon.SpawnWeapon(curWeapon);
 	}

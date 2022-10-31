@@ -329,7 +329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7949245299555937867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.81, z: 0}
+  m_LocalPosition: {x: 0.15, y: 0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7949245300733654134}
@@ -636,6 +636,7 @@ MonoBehaviour:
   max_fury: 6000
   cursor: {fileID: 0}
   weapon: {fileID: 7949245299555937865}
+  deathScreen: {fileID: 0}
 --- !u!50 &7949245300733654133
 Rigidbody2D:
   serializedVersion: 4
