@@ -19,7 +19,7 @@ public class MenuManager : MonoBehaviour
 
 	public void Play()
 	{
-		SceneManager.LoadScene("PresentationScene");
+		SceneManager.LoadScene("TestScene");
 	}
 
 	public void PanelEnable(GameObject obj)

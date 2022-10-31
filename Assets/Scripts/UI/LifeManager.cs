@@ -41,7 +41,7 @@ public class LifeManager : MonoBehaviour
 			global.pause = true;
 		}
 
-		if (pc.dead) DeathScreen();
+		if (pc.Dead) DeathScreen();
 	}
 
 	public void DeathScreen()

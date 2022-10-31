@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
 	public void PlayerDeath()
 	{
-		p.dead = true;
+		p.Dead = true;
 	}
 
 	void OnDash(InputValue v)

@@ -1183,6 +1183,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 5148350752834115362, guid: fb3f993a4b91109419dc9b3d5987b72d,
+        type: 3}
+      propertyPath: orthographic size
+      value: 17.71
+      objectReference: {fileID: 0}
     - target: {fileID: 5148350752834115364, guid: fb3f993a4b91109419dc9b3d5987b72d,
         type: 3}
       propertyPath: focus1
