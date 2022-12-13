@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4151990755016186914}
   - component: {fileID: 1791173977560964915}
   - component: {fileID: 6380617878900573720}
-  m_Layer: 9
+  m_Layer: 18
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 7231223710869483546}
   - component: {fileID: 5830154928655874890}
   - component: {fileID: 1393308977816233074}
-  m_Layer: 9
+  m_Layer: 18
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

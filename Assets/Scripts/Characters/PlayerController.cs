@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
 {
 	[SerializeField] private int dash_cooldown;
 	[SerializeField] private int dash_count;
-	[SerializeField] private float dash_input_cooldown;
 
 	[SerializeField] private int max_fury;
 
@@ -21,8 +20,6 @@ public class PlayerController : MonoBehaviour
 	private float x = 0, y = 0;
 	private int dash_recovery;
 	private int dash_stored;
-	private float dash_input_timer;
-	private Vector2 dash_input_last;
 	private bool special;
 
 	private int fury;
@@ -75,40 +72,19 @@ public class PlayerController : MonoBehaviour
 		p.Dead = true;
 	}
 
-	void OnDash(InputValue v)
+	void OnDash()
 	{
-		Vector2 input = v.Get<Vector2>();
-		float time = Time.time;
-		if (input.Equals(Vector2.zero)) return;
-		if (!dash_input_last.Equals(input) || time - dash_input_timer >= dash_input_cooldown)
+		if (dash_stored > 0 && p.Control())
 		{
-			dash_input_last = input;
-			dash_input_timer = Time.time;
-		}else
-		{
-			if (dash_stored > 0 && p.Control())
-			{
-				//Debug.Log("dash to " + dash_input_last);
-				rb2d.velocity = p.ForceSpeed(dash_input_last);
-				dash_stored--;
-				dash_input_last = Vector2.zero;
-			}
+			rb2d.velocity = p.ForceSpeed(x, y + 0.1f);
+			dash_stored--;
 		}
-	}
-
-	void OnJumpOn()
-	{
-		y = 1;
-	}
-
-	void OnJumpOff()
-	{
-		y = 0;
 	}
 
 	void OnMove(InputValue v)
 	{
 		x = v.Get<Vector2>().x;
+		y = v.Get<Vector2>().y;
 	}
 
 	void OnLook(InputValue v)
@@ -138,5 +114,12 @@ public class PlayerController : MonoBehaviour
 	public void AddFury(int f)
 	{
 		fury += f;
+	}
+
+	public void ResetControls()
+	{
+		x = 0;
+		y = 0;
+		rb2d.velocity = p.ForceSpeed(x, y);
 	}
 }

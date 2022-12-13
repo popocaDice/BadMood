@@ -7,34 +7,36 @@ public class AudioManager : MonoBehaviour
 {
 	private float master, music, sfx;
 
-	public AudioSource menu;
+	private float fadeSpeed;
+	private List<GameObject> m;
+
+	public GameObject MusicObject;
 
 	private void Awake()
 	{
 		GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>().OnLoadPref();
-		//setMaster(100);
-		//setMusic(100);
-		//setSFX(100);
+		setMaster(100);
+		setMusic(100);
+		setSFX(100);
 		DontDestroyOnLoad(gameObject);
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
 	public void UpdateMenu()
 	{
-		menu.volume = (music * master);
+		m[0].GetComponent<AudioSource>().volume = (music * master);
 	}
 
 	public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 	{
-		//Debug.Log("started");
 
-		GameObject[] music = GameObject.FindGameObjectsWithTag("Music");
+		this.m = new List<GameObject>(GameObject.FindGameObjectsWithTag("Music"));
 		//Debug.Log("found " + music.Length + " music objects");
 		GameObject[] sfx = GameObject.FindGameObjectsWithTag("SFX");
 		//Debug.Log("found " + sfx.Length + " sound objects");
 		float m = this.music * master;
 		float s = this.sfx * master;
-		foreach (GameObject g in music)
+		foreach (GameObject g in this.m)
 		{
 			g.GetComponent<AudioSource>().volume = m;
 		}
@@ -72,5 +74,32 @@ public class AudioManager : MonoBehaviour
 	public int getSFX()
 	{
 		return (int) sfx * 100;
+	}
+
+	public void FadeMusic(AudioClip next, float speed)
+	{
+		fadeSpeed = speed;
+		GameObject m = Instantiate<GameObject>(MusicObject);
+		m.GetComponent<AudioSource>().clip = next;
+		m.GetComponent<AudioSource>().volume = 0;
+		m.GetComponent<AudioSource>().loop = true;
+		m.GetComponent<AudioSource>().Play();
+		this.m.Add(m);
+	}
+
+	private void FixedUpdate()
+	{
+		if (m.Count > 1)
+		{
+			m[0].GetComponent<AudioSource>().volume = 
+				Mathf.Clamp(m[0].GetComponent<AudioSource>().volume - (fadeSpeed / 100), 0, master * music);
+			m[1].GetComponent<AudioSource>().volume =
+				Mathf.Clamp(m[1].GetComponent<AudioSource>().volume + (fadeSpeed / 100), 0, master * music);
+			if (m[0].GetComponent<AudioSource>().volume <= 0)
+			{
+				Destroy(m[0].gameObject);
+				m.RemoveAt(0);
+			}
+		}
 	}
 }

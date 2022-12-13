@@ -18,6 +18,8 @@ public interface PhysicsInterface
 
 	Vector2 ForceSpeed(Vector2 v);
 
+	Transform Body();
+
 	float GetVertSpeed();
 
 	bool Damage(float d);

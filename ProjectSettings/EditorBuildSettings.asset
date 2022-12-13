@@ -9,11 +9,26 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 9b870f64e62f73446a516b00128ca40f
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 9301addbad531e042b4c13affb4dd0f6
   - enabled: 1
     path: Assets/Scenes/PresentationScene.unity
     guid: 09140fcf2a0d756458c51a6980e1d6b7
+  - enabled: 1
+    path: Assets/Scenes/StairsScene.unity
+    guid: 63d23e90a93ff4c44becfdbf5d469abd
+  - enabled: 1
+    path: Assets/Scenes/FirstPhase.unity
+    guid: 3386370c6577da846be5c0bdcfa0099e
+  - enabled: 1
+    path: Assets/Scenes/SecondPhase.unity
+    guid: b070a47f64e15384e9881caf5817fb34
+  - enabled: 1
+    path: Assets/Scenes/LastTestPhase.unity
+    guid: e4dd93eb7a6778646ac5a0d5bf822bb7
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: a18a7778c2347ca4396c97d518215b59

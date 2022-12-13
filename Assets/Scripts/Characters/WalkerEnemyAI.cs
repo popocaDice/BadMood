@@ -75,7 +75,7 @@ public class WalkerEnemyAI : MonoBehaviour
             rb2d.velocity = Vector2.zero;
             return;
         }
-        if (enemy.Dead) GameObject.Destroy(gameObject);
+        if (enemy.Dead) EnemyDeath();
         rb2d.velocity = enemy.Move(x, y);
         ExecuteState();
     }
@@ -172,4 +172,34 @@ public class WalkerEnemyAI : MonoBehaviour
     {
         return currentState.StateName;
     }
+
+    private void EnemyDeath()
+	{
+        BodyPart(enemy.Body());
+        Destroy(gameObject);
+	}
+
+    private void BodyPart(Transform part)
+	{
+        //Debug.Log(part.gameObject.name);
+        foreach (Transform p in part)
+        {
+            if (p.childCount > 0)
+            {
+                BodyPart(p);
+            }
+            if (p.gameObject.GetComponent<SpriteRenderer>() == null)
+            {
+                //Destroy(part.gameObject);
+                continue;
+            }
+
+            //Debug.Log("fuck");
+            p.SetParent(null);
+            p.gameObject.AddComponent<PolygonCollider2D>();
+            p.gameObject.AddComponent<Rigidbody2D>().angularVelocity = Random.Range(-50, 50);
+            p.tag = "Untagged";
+            p.gameObject.layer = 19;
+        }
+	}
 }

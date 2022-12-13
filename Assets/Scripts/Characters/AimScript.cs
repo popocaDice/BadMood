@@ -54,6 +54,13 @@ public class AimScript : MonoBehaviour
 		weapon = Instantiate<GameObject>(gunObject, transform).GetComponent<WeaponInterface>();
 	}
 
+	public void SwitchWeapon(GameObject gun)
+	{
+		gunObject = gun;
+		weapon.Destroy();
+		weapon = Instantiate<GameObject>(gunObject, transform).GetComponent<WeaponInterface>();
+	}
+
 	public bool CanShoot()
     {
 		return weapon.CanShoot();

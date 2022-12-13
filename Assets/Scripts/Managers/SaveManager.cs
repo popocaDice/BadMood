@@ -9,15 +9,22 @@ public class SaveManager : MonoBehaviour
 	public AudioManager audmanager;
 
 	public GameObject curWeapon;
+	public string curLevel;
 
 	private GameObject icon;
 	private GameObject player;
 
 	public bool pause;
 
+	public List<GameObject> unlockedWeapons;
+	public List<GameObject> unlockedLevels;
+	public List<GameObject> unlockedQuickLevels;
+
 	private void Start()
 	{
 		SceneManager.sceneLoaded += OnSceneLoaded;
+		player = GameObject.FindGameObjectWithTag("Player");
+		if (player != null) player.GetComponent<PlayerController>().weapon.SpawnWeapon(curWeapon);
 	}
 
 	private void Awake()
@@ -57,5 +64,10 @@ public class SaveManager : MonoBehaviour
 		pause = false;
 		player = GameObject.FindGameObjectWithTag("Player");
 		if (player != null) player.GetComponent<PlayerController>().weapon.SpawnWeapon(curWeapon);
+	}
+
+	public void LoadScene(string scene)
+	{
+		SceneManager.LoadScene(scene);
 	}
 }

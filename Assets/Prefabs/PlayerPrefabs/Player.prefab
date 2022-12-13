@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7949245299030548663}
   - component: {fileID: 7949245299030548661}
   - component: {fileID: 7949245299030548662}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.05}
+  m_Offset: {x: 0, y: 0.025}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -138,7 +138,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.2}
+  m_Size: {x: 1, y: 0.1}
   m_EdgeRadius: 0
 --- !u!114 &7949245299030548662
 MonoBehaviour:
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 7949245299078555697}
   - component: {fileID: 7949245299078555695}
   - component: {fileID: 7949245299078555696}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05}
+  m_Offset: {x: 0, y: -0.015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -208,7 +208,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.2}
+  m_Size: {x: 1, y: 0.1}
   m_EdgeRadius: 0
 --- !u!114 &7949245299078555696
 MonoBehaviour:
@@ -630,13 +630,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172c4c85355b24044ba183016d00c8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dash_cooldown: 60
+  dash_cooldown: 300
   dash_count: 2
-  dash_input_cooldown: 0.25
   max_fury: 6000
   cursor: {fileID: 0}
   weapon: {fileID: 7949245299555937865}
-  deathScreen: {fileID: 0}
 --- !u!50 &7949245300733654133
 Rigidbody2D:
   serializedVersion: 4

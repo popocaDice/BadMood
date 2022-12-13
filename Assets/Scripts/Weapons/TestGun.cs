@@ -53,7 +53,7 @@ public class TestGun : MonoBehaviour, WeaponInterface
 	{
 		if (cool_countdown > 0) return r;
 		anim.SetBool("shoot", true);
-		GameObject p = Instantiate(projectile, projectile_spawn_position.position, Quaternion.identity) as GameObject;
+		GameObject p = Instantiate(projectile, projectile_spawn_position.position, GetComponentInParent<Transform>().rotation) as GameObject;
 		p.GetComponent<ProjectileInterface>().angle = GetComponentInParent<Transform>().rotation.eulerAngles.z;
 		cool_countdown = cooldown;
 		return recoil + r;
@@ -85,4 +85,9 @@ public class TestGun : MonoBehaviour, WeaponInterface
     {
 		return cool_countdown == 0;
     }
+
+	public void Destroy()
+	{
+		Destroy(gameObject);
+	}
 }

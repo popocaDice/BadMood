@@ -60,13 +60,17 @@
     <Compile Include="Assets\Scripts\Characters\LazyEnemyAI.cs" />
     <Compile Include="Assets\Scripts\Characters\WalkerEnemyAI.cs" />
     <Compile Include="Assets\Scripts\Outdated\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Managers\Cutscenes\CityRageCutscene.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponInterface.cs" />
     <Compile Include="Assets\Scripts\UI\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Weapons\BaseFist.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileInterface.cs" />
     <Compile Include="Assets\Scripts\UI\CursorControll.cs" />
     <Compile Include="Assets\Scripts\Characters\CollisionCheck.cs" />
+    <Compile Include="Assets\Scripts\Characters\FlyEnemyController.cs" />
     <Compile Include="Assets\Scripts\UI\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Characters\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Characters\FloatPhysics.cs" />
     <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
     <Compile Include="Assets\Scripts\UI\MenuCamera.cs" />
     <Compile Include="Assets\Scripts\Characters\CharacterPhysics.cs" />
@@ -79,17 +83,22 @@
     <Compile Include="Assets\Scripts\Outdated\GenerateNpc.cs" />
     <Compile Include="Assets\CurvedTextMeshPro\Scripts\TextProOnACircle.cs" />
     <Compile Include="Assets\CurvedTextMeshPro\Scripts\TextProOnAExp.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\Characters\AimScript.cs" />
     <Compile Include="Assets\Scripts\Characters\StateStructure.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Managers\LevelData.cs" />
     <Compile Include="Assets\Scripts\Outdated\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Characters\PhysicsInterface.cs" />
     <Compile Include="Assets\Scripts\Weapons\TestProjectile.cs" />
     <Compile Include="Assets\Scripts\Weapons\TestGun.cs" />
     <Compile Include="Assets\Scripts\Weapons\TestEnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\Outdated\BulletBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Managers\Cutscenes\CityFirstCutsceneScript.cs" />
+    <Compile Include="Assets\Scripts\Managers\EventLoader.cs" />
     <Compile Include="Assets\Scripts\Characters\EnemyAimScript.cs" />
+    <Compile Include="Assets\Animations\UI\Intro\fuckyou.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -750,6 +759,12 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>

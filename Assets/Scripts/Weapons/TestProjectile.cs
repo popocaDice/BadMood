@@ -42,10 +42,11 @@ public class TestProjectile : MonoBehaviour, ProjectileInterface
 	{
 		if (collision.gameObject.tag == "Enemy")
 		{
-			if (collision.gameObject.GetComponent<CharacterPhysics>().Damage(1,
+			if (collision.gameObject.GetComponent<PhysicsInterface>().Damage(1,
 				Vector3.ClampMagnitude(collision.transform.position - transform.position, 1), knockback))
 			Collide();
 		}
+		Collide();
 	}
 
 	public void Collide()

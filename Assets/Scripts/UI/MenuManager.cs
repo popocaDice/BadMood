@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+	private AudioManager aud;
+	private SaveManager global;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+		global = GameObject.FindGameObjectWithTag("Save").GetComponent<SaveManager>();
+		aud = global.audmanager;
     }
 
     // Update is called once per frame
@@ -16,11 +20,6 @@ public class MenuManager : MonoBehaviour
     {
         
     }
-
-	public void Play()
-	{
-		SceneManager.LoadScene("TestScene");
-	}
 
 	public void PanelEnable(GameObject obj)
 	{
@@ -35,5 +34,25 @@ public class MenuManager : MonoBehaviour
 	public void Quit()
 	{
 		Application.Quit();
+	}
+
+	public void ChangeMaster (float v)
+	{
+		aud.setMaster(v);
+	}
+
+	public void ChangeMusic(float v)
+	{
+		aud.setMusic(v);
+	}
+
+	public void ChangeSFX(float v)
+	{
+		aud.setSFX(v);
+	}
+
+	public void UpdateMenu()
+	{
+		aud.UpdateMenu();
 	}
 }

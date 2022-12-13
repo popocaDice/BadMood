@@ -85,4 +85,9 @@ public class EnemyTestGun : MonoBehaviour, WeaponInterface
 	{
 		r.sprite = sprites_shoot[side];
 	}
+
+	public void Destroy()
+	{
+		Destroy(gameObject);
+	}
 }

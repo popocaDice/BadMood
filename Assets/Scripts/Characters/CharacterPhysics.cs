@@ -122,8 +122,7 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	public Vector2 ForceSpeed(float x, float y, float speed)
 	{
 		v.x = x*speed;
-		if (y == 0) y = v.y + y*speed;
-		else v.y = y*speed;
+		v.y = Mathf.Clamp(y, -1, 0.75f) * speed;
 		return v;
 	}
 
@@ -218,10 +217,15 @@ public class CharacterPhysics : MonoBehaviour, PhysicsInterface
 	private void Die()
     {
 		anim.SetTrigger("die");
-		Debug.Log("dead");
+		//Debug.Log("dead");
 		control = false;
 		Dead = true;
     }
+
+	public Transform Body()
+	{
+		return body;
+	} 
 
 	void Update()
     {

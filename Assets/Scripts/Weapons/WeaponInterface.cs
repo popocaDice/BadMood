@@ -13,4 +13,6 @@ public interface WeaponInterface
 	void shot();
 
 	bool CanShoot();
+
+	void Destroy();
 }
